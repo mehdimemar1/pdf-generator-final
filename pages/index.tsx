@@ -14,7 +14,7 @@ export default function HomePage() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          🚀 سرویس تولید PDF فعال است
+          🚀 اولین استقرار از گیت‌هاب!
         </h1>
 
         <p className={styles.description}>
