@@ -12,14 +12,7 @@ const nextConfig: NextConfig = {
     'path'
   ],
 
-  // تنظیمات webpack برای جلوگیری از باندل شدن puppeteer در سرور
-  webpack: (config, { isServer }) => {
-    if (isServer) {
-      config.externals = config.externals || [];
-      config.externals.push('puppeteer-core');
-    }
-    return config;
-  },
+
 
   // برای استقرار بهینه در Vercel
   output: 'standalone',
