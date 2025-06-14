@@ -1,5 +1,5 @@
 // pages/api/convert.ts
-import chromium from '@sparticuz/chromium-min';
+import chromium from '@sparticuz/chromium';
 import { type Browser, type LaunchOptions, PDFOptions, launch } from 'puppeteer-core';
 import type { NextApiRequest, NextApiResponse } from 'next';
 import path from 'path';
