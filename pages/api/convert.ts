@@ -261,9 +261,9 @@ const footerTemplate = `
         background: linear-gradient(90deg, #4ecdc4, #3498db, #9b59b6);
     "></div>
     <div style="position: relative; z-index: 2;">
-        <span style="font-weight: bold; color: #2d3748;">صفحه</span>
+        <span style="font-weight: bold; color: #2d3748; !important;">صفحه</span>
         <span class="pageNumber" style="font-weight: bold;"></span>
-        <span style="font-weight: bold; color: #2d3748;">از</span>
+        <span style="font-weight: bold; color: #2d3748; !important;">از</span>
         <span class="totalPages" style="font-weight: bold;"></span>
     </div>
 </div>
