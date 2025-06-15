@@ -315,7 +315,7 @@ const generatePdf = async (htmlContent: string): Promise<Buffer> => {
     </head>
     <body>
       <div class="header">
-        <div class="document-title">Official Document</div>
+        <div class="document-title">تهیه شده در ربات تلگرام  <a href="https://t.me/Gemini3chatbot">@Gemini3chatbot</a></div>
         <div class="document-date">${currentDate}</div>
       </div>
       
